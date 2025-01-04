@@ -33,6 +33,7 @@ const partialPerson: Partial<semiConductor> = {
 };
 
 
+
 //Required<T>, it make all properties of the type are compulsory
 
 const RequiredSemiconductor:Required<semiConductor>={
@@ -112,4 +113,4 @@ const scores: LanguageScores = {
 };
 
 
-
+// Partials, Required,readonly,Records, Exclude,Extract,NonNullable,Pick,omit
